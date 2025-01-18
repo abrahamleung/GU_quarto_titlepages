@@ -1,7 +1,7 @@
 title: titlepage
-author: Eli Holmes
+author: Abraham Leung
 quarto-required: ">=1.1.0"
-version: 3.3.11
+version: 0.0.1
 contributes:
   format:
     pdf:
@@ -17,4 +17,8 @@ contributes:
         - "before-body.tex"
         - "pandoc.tex"
       format-resources:
-        - "fonts/qualitype/opentype/QTDublinIrish.otf"
+        - "fonts/Griffith-University-fonts/GriffithSerifDisplay-Bold.otf"
+        - "fonts/Griffith-University-fonts/GriffithSansText-Regular.otf"
+        - "fonts/Griffith-University-fonts/GriffithSansText-Light.otf"
+        - "fonts/Griffith-University-fonts/GriffithSansDisplay-Bold.otf"
+        - "fonts/Griffith-University-fonts/GriffithSansDisplay-Italic.otf"
